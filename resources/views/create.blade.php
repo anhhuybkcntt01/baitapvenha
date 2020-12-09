@@ -18,6 +18,7 @@
         }
     </style>
     <title>Create Post</title>
+    <p>{{$username}}</p>
 </head>
 <body>
 <div class="container">
