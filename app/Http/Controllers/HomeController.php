@@ -20,14 +20,15 @@ class HomeController extends Controller
                 $posts->whereDate('created_at',$searchText);
 
             }else {
-                $posts->where('title','LIKE',"%{$searchText}%")
+             $posts->where('title','LIKE',"%{$searchText}%")
                     ->orWhere('content','LIKE',"%{$searchText}%");
 
             }
 
         }
- $posts->paginate(10);
-        dd($posts);
+
+        $posts = $posts->paginate(10);
+//        dd($posts);
 
         return view('home',compact('posts'));
     }
