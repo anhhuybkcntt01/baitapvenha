@@ -147,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607524902677</updated>
-      <workItem from="1607524904003" duration="14775000" />
+      <workItem from="1607524904003" duration="20473000" />
     </task>
     <servers />
   </component>
@@ -163,17 +163,19 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607534525488" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1607536309388">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="2017" y="41" key="FileChooserDialogImpl" timestamp="1607650900668">
+      <screen x="1366" y="-129" width="1920" height="1040" />
     </state>
+    <state x="2017" y="41" key="FileChooserDialogImpl/0.0.1366.728/1366.-129.1920.1040@1366.-129.1920.1040" timestamp="1607650900668" />
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607536309388" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1607534387492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1607534387492" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607540575575">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1852" y="-59" width="945" height="969" key="search.everywhere.popup" timestamp="1607650733201">
+      <screen x="1366" y="-129" width="1920" height="1040" />
     </state>
+    <state x="1852" y="-59" width="945" height="969" key="search.everywhere.popup/0.0.1366.728/1366.-129.1920.1040@1366.-129.1920.1040" timestamp="1607650733201" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607540575575" />
   </component>
 </project>
