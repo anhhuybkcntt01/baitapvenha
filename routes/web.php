@@ -20,8 +20,8 @@ Route::get('/', function () {
 Route::get('/home',[\App\Http\Controllers\HomeController::class,'index']);
 
 
-Route::get('/post/create',[\App\Http\Controllers\PostController::class,'create'])->middleware(['login','role'])->name('post.create');
-Route::post('/post',[\App\Http\Controllers\PostController::class,'store'])->name('post.store');
+Route::get('/post/create',[\App\Http\Controllers\PostController::class,'createPost'])->middleware(['login','role'])->name('post.create');
+Route::post('/post',[\App\Http\Controllers\PostController::class,'storePost'])->name('post.store');
 
 
 Route::get('/login',function (){
@@ -29,3 +29,5 @@ Route::get('/login',function (){
 })->middleware('login')->name('login');
 
 Route::post('/check-login',[\App\Http\Controllers\PostController::class,'checkLogin'])->name('check-login');
+
+Route::resource('posts',\App\Http\Controllers\PostController::class);
